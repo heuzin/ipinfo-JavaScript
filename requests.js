@@ -6,6 +6,6 @@ const getLocation = () => {
             throw new Error('Unable to fetch data')
         }
     }).then((data) => {
-        return data.city
+        return data
     })
 }
