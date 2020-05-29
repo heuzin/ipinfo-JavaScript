@@ -17,3 +17,9 @@ getLocation().then((location) => {
 }).catch((error) => {
     console.log(error)
 })
+
+getCurrentLocation().then((country) => {
+    console.log(country.name)
+}).catch((error) =>  {
+    console.log(`Error: ${error}`)
+})
